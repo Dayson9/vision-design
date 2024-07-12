@@ -4,23 +4,17 @@ var offset = 0, nav_is_opened = false;
 
 links.forEach((link) =>{
 link.onclick = () => {
-nav.style.width = "0%";
-nav.style.height = "0vh";
-nav.style.opacity = 0;
+nav.style.transform = "translateX(-100%)";
 nav_is_opened = false;
 }
 });
 
 trigger.addEventListener("click", () =>{
 if(nav_is_opened){
-nav.style.width = "0%";
-nav.style.height = "0vh";
-nav.style.opacity = 0;
+nav.style.transform = "translateX(-100%)";
 nav_is_opened = false;
 }else{
-nav.style.opacity = 1;
-nav.style.width = "60%";
-nav.style.height = "35vh";
+nav.style.transform = "translateX(0%)";
 nav_is_opened = true;
 }
 })
