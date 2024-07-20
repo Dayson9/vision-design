@@ -22,7 +22,7 @@ nav_is_opened = true;
 left.addEventListener("click", () =>{
 if(offset == 0){
 offset = -((290*imgs.length)-290);
-}else{
+} else {
 offset+= 290;
 }
 
