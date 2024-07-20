@@ -120,7 +120,7 @@ margin-block: 10px;
 }
 
 .nav span{
-font-size: 17px;
+font-size: 0.8em;
 font-weight: 400;
 margin-bottom: 10px;
 }
@@ -158,6 +158,7 @@ height: auto;
 
 .hero p{
 margin-top: -12px;
+font-size: 0.8em;
 }
 
 .hero-btn {
@@ -178,6 +179,10 @@ font-family: "Cabinet Grotesk Medium", sans-serif;
 
 .hero-btn button:hover{
  background: #00294A;
+}
+
+.hero h1 {
+  font-size: 1.6em;
 }
 
 .container{
@@ -211,7 +216,7 @@ font-family: "Half Grotesk";
 }
 
 .note{
-font-size: 16px;
+font-size: 0.8em;
 line-height: 1.5rem;
 font-weight: 100;
 }
@@ -245,6 +250,24 @@ flex-direction: row;
 align-items: center;
 justify-content: space-around;
 text-align: left; 
+}
+
+.row{
+width: 100%;
+min-height: 100px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+text-align: left; 
+}
+
+.bxs-phone {
+  transform: translateX(30px)!important;
+}
+
+.bxl-whatsapp {
+  transform: translateX(-30px);
 }
 
 .row i, .row span{
@@ -393,7 +416,7 @@ height: 420px;
 }
 
 .heading {
-font-size: 0.6rem;
+font-size: 0.5rem;
 font-weight: 500;
 }
 
