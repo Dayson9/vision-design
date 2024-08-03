@@ -362,12 +362,15 @@ color: white;
 .footer{
 text-align: center!important;
 width: 100vw;
-height: 40px;
+height: auto;
+background: #00294A;
+padding-block: 10px;
+margin-bottom: -20px;
 }
 
 .footer *{
 text-decoration: none;
-color: #00294A;
+color: white;
 }
 
 @media only screen and (min-width: 768px){
